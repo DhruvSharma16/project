@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=”utf-8”><meta name=”viewport” content=”width=device-width, initial-scale-1.0”>
+<title>my website</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style type="text/css">
+    *{
+ padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+text-decoration: none;
+}
+body{
+ overflow-x: hidden;
+}
+.main-width{
+Width: 1280px;
+max-width: 95%;
+margin: 0 auto;
+padding: 0px 20px;
+}
+.hero{
+width: 100%;
+height: 100%;
+min-height: 100vh;
+background: Linear-gradient;
+background-size: cover;
+background-position:center;
+background-image: url("background.jpg");
+}
+header
+{
+padding: 40px 0 30px; display: flex;
+flex-wrap: nowrap;
+align-items: center;
+justify-content:space-between;
+}
+.logo i 
+{
+height: 55px;
+width: 55px;
+background: transparent;
+border: 2px solid #2ecc71;
+color: #ADD8E6;
+border-radius: 50%;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+font-size : 20px;
+
+}
+nav .hamb
+{
+width: 35px;
+height: 24px;
+right: 3%;
+top: 60px;
+z-index: 5;
+background: white;
+position: absolute;
+cursor: pointer;
+}
+nav .hamb span
+{
+display: block;
+background: #2ecc71;
+width: 100%;
+height: 3px;
+transition: .3s;
+transition-property: transform, opacity;
+ }
+nav .hamb span:nth-child(2)
+{
+margin: 7px 0px;
+}
+nav .nav-list
+{
+List-style: none;
+}
+nav .nav-list li{
+display: inline-block;
+}
+nav .nav-list li a{
+display: inline-block;
+color: #eee;
+margin-left: 55px;
+font-size: 15px;
+font-weight: 600;
+}
+nav .nav-list li:not(:last-child) a:hover{
+color: #2ecc71;
+transition: .4s;
+}
+nav .nav-list li.btn a{
+display: inline-block;
+background: transparent;
+border: 2px solid #2ecc71;
+padding: 9px 28px;
+border-radius: 30px;
+Line-height: 1.3;
+color: #2ecc71;
+font-weight: 500;
+}
+nav .nav-list li.btn:hover a{
+background: #2ecc71;
+color: white;
+border: 2px solid transparent;
+transition: .4s;
+}
+.container{
+padding-top: 190px;
+ }
+.container .hero-text
+{
+margin-bottom: 40px;
+}
+.container .hero-text h1
+{
+color: white;
+font-size: 47px;
+font-weight: 900; Line-height: 1.2;
+margin: 20px 0px 20px;
+}
+span
+{
+color:  #ADD8E6;
+}
+.container .hero-text h3
+{
+color: #eee;
+font-weight: 400;
+font-size: 17px;
+}
+.container .hero-text p
+{
+width: 440px;
+max-width: 100%;
+color: #eee;
+font-size: 15px;
+Line-height: 1.5;
+margin-bottom: 30px;
+}
+.social a
+{
+width: 37px;
+height: 37px;
+border-radius: 50%;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+font-size: 17px;
+color: #eee;
+cursor: pointer;
+margin-right: 20px;
+margin-bottom: 35px;
+}
+.social a:hover
+{
+transform: scale(1.1);
+background: #2ecc71;
+transition: .4s;
+}
+.container .hero-text button
+{
+color: #eee;
+background: #2ecc71;
+font-size: 16px;
+font-weight: 500;
+Line-height: 24px;
+padding: 8px 30px;
+border: 2px solid #2ecc71;
+border-radius: 30px;
+cursor: pointer;
+}
+.container .hero-text button:hover{
+background: transparent;
+border: 2px solid #2ecc71;
+color: #2ecc71;
+transition: .4s;
+}
+.bottom p{
+color: #eee;
+Letter-spacing: 2px;
+font-size: 15px;
+}
+</style>
+<body>
+<Section class="hero">
+<div class="main-width">
+<header>
+<div class="logo">
+<i class="fa-solid fa-d"></i>
+</div>
+<nav>
+<div class="hamb">
+<span></span>
+<span></span>
+<span></span>
+</div>
+<ul class="nav-list">
+<li><a href="#">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="SERVICES.html">Services</a></li>
+<li><a href="work.html">Work</a></li>
+<li class="btn"><a href="contactme.html">Contact Me</a></li>
+
+</ul>
+</nav>
+</header>
+<div class="container">
+<div class="hero-text">
+<h3>Hi, There!</h3>
+<h1>I Am <span>Dhruv Sharma</span></h1>
+<p>This is my Blog Website</p>
+<div class="social">
+<a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+<a href="#"><i class="fa-brands fa-twitter"></i></a>
+<a href="#"><i class="fa-brands fa-instagram"></i></a>
+<a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+<a href="#"><i class="fa-brands fa-github"></i></a>
+</div>
+<button type="button"><a href="cv.html">More About Me</a></button>
+<br><br><br><br><br>
+ <p class="bottom">@2022 Dhruv - All Rights Reserved.</p>
+</div>
+ 
+ 
+</div>
+</div>
+</section>
+</body>
+</html>
